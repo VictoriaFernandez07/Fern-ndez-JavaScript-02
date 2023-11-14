@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+     <title>Actividad JavaScript 02</title>
+   </head>
+    <body>
+        <script src="index.js"></script>
+
+     <!--Ejercicio-01-->
+     <div id="Promedio"></div>
+
+     <!--Ejercicio-02-->
+     <div id="Datos-Estudiante"></div>
+
+     <!--Ejercicio-03-->
+     <div id="Estudiantes-UP"></div>
+
+     <!--Ejercicio-04-->
+        <div id="Lista estudiantes Comunicación Digital">
+         <button onclick="ListaEstudiantes()">Lista de Estudiantes Comunicación Digital UP</button>
+        </div>
+        <div id="Lista-EstudiantesCD"></div>
+
+     <!--Ejercicio-05-->
+        <div id="Lista estudiantes Comunicación Digital">
+         <button onclick="ListaEstudiantes()">Lista de Estudiantes Comunicación Digital UP</button>
+        </div>
+        <div id="Lista-EstudiantesCD"></div> 
+
+        <form id="formularioEstudiante">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+          
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required>
+          
+            <label for="legajo">Legajo:</label>
+            <input type="text" id="legajo" required>
+          
+            <label for="notas">Notas:</label>
+            <input type="text" id="notas" required>
+          
+            <button type="button" onclick="agregarEstudiante()">Agregar Estudiante</button>
+        </form>
+
+     <!--Ejercicio-06-->
+        <div id="Notas de los estudiantes Contenidos y creatividad II">
+         <h1>Notas estudiantes Contenidos y creatividad II</h1>
+
+         <label for="nombre">Nombre:</label>
+         <input type="text" id="nombre">
+     
+         <label for="apellido">Apellido:</label>
+         <input type="text" id="apellido">
+     
+         <label for="nota">Nota:</label>
+         <input type="number" id="nota" min="0" max="10">
+     
+         <button onclick="calcularPromedio()">Calcular Promedio</button>
+     
+         <div id="Promedio"></div>
+
+        </div>
+
+     <!--Ejercicio-07-->
+        <div id="Promedio-Estudiante">
+         <h2>Promedio Contenidos y creatividad II</h2>
+
+         <label for="nombre">Nombre:</label>
+         <input type="text" id="nombre">
+
+         <label for="apellido">Apellido:</label>
+         <input type="text" id="apellido">
+
+         <label for="nota">Nota:</label>
+         <input type="number" id="nota" min="0" max="10">
+
+         <button onclick="calcularPromedio()">Calcular Promedio</button>
+
+         <div id="resultados"></div>
+
+        </div>
+
+    </body>
+    
+</html>
